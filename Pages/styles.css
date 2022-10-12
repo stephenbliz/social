@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 144rem;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  background-color: hsl(0deg, 0%, 100%);
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  width: 80%;
+  height: 45%;
+  margin: 0 10%;
+  margin-top: 2%;
+  justify-content: space-between;
+}
+
+.miniContainer1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 50%;
+}
+.miniContainer1 .h1 {
+  color: hsl(300deg, 43%, 22%);
+  font-size: 4.2rem;
+}
+.miniContainer1 .p {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: -1rem;
+}
+
+.miniContainer2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  width: 40%;
+  height: 50%;
+}
+.miniContainer2 .wrapper1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
+  background-color: hsl(300deg, 24%, 96%);
+  width: 27rem;
+  height: 3rem;
+}
+.miniContainer2 .wrapper1 .star {
+  height: 1.2rem;
+  width: 8rem;
+  margin: auto 0;
+}
+.miniContainer2 .wrapper1 .rating {
+  margin: auto 0;
+  color: hsl(300deg, 43%, 22%);
+  font-weight: bold;
+}
+.miniContainer2 .first {
+  margin-top: 6rem;
+  margin-right: 4rem;
+}
+.miniContainer2 .second {
+  margin-right: 2rem;
+}
+
+.miniContainer3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 10%;
+  margin-top: 2.5%;
+  height: 45%;
+}
+
+.wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 50%;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: hsl(300deg, 43%, 22%);
+  border-radius: 0.5rem;
+}
+.wrapper2 .picture {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-top: 0.2rem;
+}
+.wrapper2 .name {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+  color: hsl(0deg, 0%, 100%);
+  margin-top: 0.5rem;
+}
+.wrapper2 .name .span {
+  display: block;
+  color: hsl(333deg, 80%, 67%);
+}
+.wrapper2 .testimony {
+  color: hsl(0deg, 0%, 100%);
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.box3 {
+  margin-top: 2rem;
+}
+
+.box2 {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0deg, 0%, 100%);
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .subContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    width: 100%;
+    height: 70%;
+    margin: 0 1%;
+  }
+  .miniContainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    margin-top: 15%;
+  }
+  .miniContainer1 .h1 {
+    text-align: center;
+    width: 100%;
+    color: hsl(300deg, 43%, 22%);
+    font-size: 4.3rem;
+  }
+  .miniContainer1 .p {
+    text-align: center;
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+  .miniContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: -17%;
+    height: 30%;
+  }
+  .miniContainer2 .wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    background-color: hsl(300deg, 24%, 96%);
+    width: 100%;
+    height: 5rem;
+  }
+  .miniContainer2 .wrapper1 .star {
+    height: 1.2rem;
+    width: 7rem;
+    margin: auto 0;
+  }
+  .miniContainer2 .wrapper1 .rating {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    margin: auto 0;
+    color: hsl(300deg, 43%, 22%);
+    font-weight: bold;
+  }
+  .miniContainer2 .first {
+    width: 100%;
+  }
+  .miniContainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 1%;
+    margin-top: 12%;
+    height: 50%;
+  }
+  .wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: hsl(300deg, 43%, 22%);
+    border-radius: 0.5rem;
+  }
+  .wrapper2 .picture {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-top: 10%;
+  }
+  .wrapper2 .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    color: hsl(0deg, 0%, 100%);
+    margin-top: 10%;
+  }
+  .wrapper2 .name .span {
+    display: block;
+    color: hsl(333deg, 80%, 67%);
+  }
+  .wrapper2 .testimony {
+    color: hsl(0deg, 0%, 100%);
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */
